@@ -1,2 +1,4 @@
 # Pass-Quick
-Password Generator 
+### A Password Generator!
+
+![screenshot](./Screenshot-pass-quick)

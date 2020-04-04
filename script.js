@@ -77,10 +77,16 @@ var confirmLowercase = window.confirm ( "Finaly, would you care for lowercase le
 
        }
        console.log(password) 
+   // copy password feature // last priority//
+ 
+        
 
   
     return password;
+
 }
+
+
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
@@ -95,3 +101,5 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+
