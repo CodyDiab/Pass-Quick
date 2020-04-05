@@ -62,7 +62,10 @@ var confirmLowercase = window.confirm ( "Finaly, would you care for lowercase le
         if (!confirmLowercase){
           var lowercase = ""
         }
-  
+  if(!confirmLowercase&&!confirmUppercase&&!confirmSpecial&&!confirmNumbers){
+   alert("Well,you have to include something!")
+    return generatePassword()
+  }
   window.alert("One " + duration + " character long password coming right up!")
     // combine all variables in password variable
     var passwordInclusion = numbers + special + uppercase + lowercase;
